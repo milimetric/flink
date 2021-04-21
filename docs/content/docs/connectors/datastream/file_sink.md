@@ -66,7 +66,9 @@ When creating either a row or a bulk encoded sink we have to specify the base pa
 stored and the encoding logic for our data.
 
 Please check out the JavaDoc for {{< javadoc file="org/apache/flink/connector/file/sink/FileSink.html" name="FileSink">}}
-for all the configuration options and more documentation about the implementation of the different data formats.
+for all the configuration options and more documentation about the implementation of the different data formats.  To use it you need to add the following dependency:
+
+{{< artifact flink-connector-files >}}
 
 ### Row-encoded Formats
 
